@@ -1,0 +1,37 @@
+.list-interior__title {
+    font-size: 26px;
+    color: white;
+    margin-bottom: 30px;
+    height: 20px;
+}
+
+@media (max-width: 1024px) {
+    .list-interior__title {
+        font-size: 20px;
+        margin: 20px 5px;
+    }
+}
+
+@media (max-width: 666px) {
+    .list-interior__title {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 600px) {
+    .list-interior__title {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 400px) {
+    .list-interior__title {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 320px) {
+    .list-interior__title{
+        font-size: 14px;
+    }
+}

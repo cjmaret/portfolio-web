@@ -1,0 +1,11 @@
+.header_scroll {
+    opacity: 0.5;
+    background-color: #7cd5df;
+    animation: fadeIn .6s ease 1 forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}

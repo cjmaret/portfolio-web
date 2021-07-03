@@ -1,0 +1,36 @@
+.list-interior__list-item {
+    font-size: 20px;
+    margin: 30px auto;
+}
+
+@media (max-width: 1024px) {
+    .list-interior__list-item {
+        font-size: 15px;
+        margin: 15px auto;
+    }
+}
+
+@media (max-width: 666px) {
+    .list-interior__list-item {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 600px) {
+    .list-interior__list-item {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 400px) {
+    .list-interior__list-item {
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 320px) {
+    .list-interior__list-item {
+        margin: 10px auto;
+        font-size: 10px;
+    }
+}

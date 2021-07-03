@@ -1,0 +1,15 @@
+.places-icon {
+    width: 80px;
+}
+
+@media (max-width: 666px) {
+    .places-icon {
+        width: 45px;
+    }
+}
+
+@media (max-width: 510px) {    
+    .places-icon {
+        width: 35px;
+    }
+}

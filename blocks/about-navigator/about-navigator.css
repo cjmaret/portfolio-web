@@ -1,0 +1,11 @@
+.about-navigator {
+    width: 100%;
+    margin: 20px auto 140px auto;
+    visibility: hidden;
+}
+
+@media (max-width: 768px) {
+    .about-navigator {
+        margin: 0 auto 100px auto;
+    }
+}

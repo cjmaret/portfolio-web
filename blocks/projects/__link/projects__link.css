@@ -1,0 +1,13 @@
+@import url("./_type/_black/projects__link_type_black.css");
+@import url("./_type/_white/projects__link_type_white.css");
+
+.projects__link {
+    text-decoration: none;
+    background-color: transparent;
+    padding: 10px 0;
+    color: white;
+    font-weight: 400;
+    transition: 0.4s ease;
+    cursor: pointer;
+    width: 60px;
+}

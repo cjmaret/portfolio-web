@@ -1,0 +1,14 @@
+.projects__links {
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid red; */
+    width: 40%;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 510px) {
+    .projects__links {
+        margin-bottom: 0;
+        width: 50%;
+    }
+}

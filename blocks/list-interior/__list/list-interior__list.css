@@ -1,0 +1,22 @@
+.list-interior__list {
+    margin-top: 40px;
+    list-style: none;
+    padding: 0;
+    /* color: rgb(71, 71, 71); */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+@media (max-width: 400px) {
+    .list-interior__list {
+        margin: 0;
+    }
+}
+
+@media (max-width: 320px) {
+    .list-interior__list {
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,16 @@
+.lead__anime {
+    /* border: 1px solid red; */
+    max-width: 250px;
+}
+
+@media (max-width: 510px) {
+    .lead__anime {
+        max-width: 200px;
+    }
+}
+
+@media (max-width: 320px) {
+    .lead__anime {
+        max-width: 175px;
+    }
+}

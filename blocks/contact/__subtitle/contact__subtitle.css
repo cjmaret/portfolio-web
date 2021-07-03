@@ -1,0 +1,18 @@
+.contact__subtitle {
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+@media (max-width: 666px) {
+    .contact__subtitle {
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width: 400px) {
+    .contact__subtitle {
+        font-size: 15px;
+        margin-bottom: 25px;
+    }
+}

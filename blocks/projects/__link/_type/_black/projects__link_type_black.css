@@ -1,0 +1,9 @@
+.projects__link_type_black {
+    display: none;
+}
+
+@media (max-width: 510px) {
+    .projects__link_type_black {
+        display: block;
+    }
+}

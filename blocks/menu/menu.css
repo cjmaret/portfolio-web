@@ -1,0 +1,25 @@
+.menu {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+    margin: auto;
+    margin-right: 50px;
+}
+
+@media (max-width: 666px) {
+    .menu {
+        margin-right: 25px;
+    }
+}
+
+@media (max-width: 510px) {      
+    .menu {
+        display: block;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        overflow: hidden;
+        background-color: rgba(35, 35, 35, 0.5);
+    }
+}

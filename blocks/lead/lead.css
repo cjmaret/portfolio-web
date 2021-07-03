@@ -1,0 +1,28 @@
+@import url("./__anime/lead__anime.css");
+@import url("./__subtitle/lead__subtitle.css");
+@import url("./__text/lead__text.css");
+@import url("./__title/lead__title.css");
+
+.lead {
+    height: 85vh;
+    width: 100vw;
+    margin-top: -103px;
+    z-index: 3;
+    background-color: #7cd5df;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 510px) {
+    .lead {
+        margin-top: -84px;
+        padding-top: 100px;
+    }
+}
+
+@media (max-width: 320px) {
+    .lead {
+        height: 75vh;
+    }
+}

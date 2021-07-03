@@ -1,0 +1,25 @@
+@import url("./__button/contact__button.css");
+@import url("./__subtitle/contact__subtitle.css");
+@import url("./__title/contact__title.css");
+
+.contact {
+    text-align: center;
+    padding: 250px 0;
+    /* border-top: 1px solid rgba(0, 0, 0, 0.2); */
+    width: 90%;
+    margin: auto;
+}
+
+@media (max-width: 510px) {
+    .contact {
+        width: 90%;
+        margin: auto;
+        padding: 200px 0;
+    }
+}
+
+@media (max-width: 400px) {
+    .contact {
+        padding: 150px 0;
+    }
+}

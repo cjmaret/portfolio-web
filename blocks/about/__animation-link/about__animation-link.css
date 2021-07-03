@@ -1,0 +1,6 @@
+.about__animation-link {
+    text-decoration: none;
+    color: #7cd5df;
+    font-weight: bold;
+    transition: opacity 0.4s ease;
+}

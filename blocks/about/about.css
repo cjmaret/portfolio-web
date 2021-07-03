@@ -1,0 +1,24 @@
+@import url("./__animation-link/about__animation-link.css");
+@import url("./__icons/about__icons.css");
+@import url("./__image/about__image.css");
+@import url("./__info/about__info.css");
+@import url("./__intro/about__intro.css");
+@import url("./__lists/about__lists.css");
+@import url("./__me/about__me.css");
+@import url("./__title/about__title.css");
+@import url("./__paragraph/about__paragraph.css");
+
+
+.about {
+    width: 90%;
+    margin: 200px auto 100px auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 1152px;
+}
+
+@media (max-width: 768px) {
+    .about {
+        margin-top: 100px;
+    }
+}

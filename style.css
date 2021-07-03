@@ -3,1047 +3,89 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
 
 
-.no-js #loader { display: none;  }
-.js #loader { display: block; position: absolute; left: 100px; top: 0; }
-.se-pre-con {
-	position: fixed;
-	left: 0px;
-	top: 0px;
-	width: 100%;
-	height: 100%;
-	z-index: 9999;
-	background: url("./images/CM-logo.gif") center no-repeat #293039;
-}
 
-.page {
-    font-family: "Nunito", sans-serif;
-}
+
 
 /* Header CSS 1280px */
-
-.header {
-    display: flex;
-    justify-content: space-between;
-    position: sticky;
-    top: 0;
-    z-index: 9998;
-    width: 100vw;
-}
-
-.header_grey {
-    background-color:rgba(255, 255, 255);
-    animation: fadeOut .8s ease 1 forwards;
-}
-
-.header_scroll {
-    opacity: 0.5;
-    background-color: #7cd5df;
-    animation: fadeIn .6s ease 1 forwards;
-}
-
-.logo-link {
-    margin: auto 0;
-}
-
-.logo-link_type_white {
-    display: block;
-}
-
-.logo {
-    width: 50px;
-    height: 50px;
-    object-fit: cover;
-    margin: 15px 0 15px 75px;
-    transition: opacity 0.4s ease;
-}
-
-.logo:hover {
-    opacity: 0.7;
-}
-
-.header__menu-btn {
-    display: none;
-}
-
-.menu {
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    padding: 0;
-    margin: auto;
-    margin-right: 50px;
-}
-
-.header__list {
-    margin-right: 20px;
-}
-
-.header__list:last-child {
-    margin-right: 0;
-}
-
-.header__link {
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-    transition: color 0.4s ease;
-}
-
-.header__link:hover {
-    color: rgba(255, 255, 255, 0.5);
-}
-
 
 
 /* Lead CSS 1280px*/
 
 
-
-.lead {
-    height: 85vh;
-    width: 100vw;
-    margin-top: -103px;
-    z-index: 3;
-    background-color: #7cd5df;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.lead__anime {
-    /* border: 1px solid red; */
-    max-width: 250px;
-}
-
-.lead__text {
-    text-align: center;
-    color: white;
-    width: 100%;
-}
-
-.lead__title {
-    font-size: 75px;
-    margin-top: 20px;
-    margin-bottom: 15px;
-}
-
-.lead__subtitle {
-    text-align: center;
-    font-size: 30px;
-    text-align: center;
-    margin: auto;
-}
-
-.curved-bottom {
-    margin-top: -10px;
-    object-fit: fill;
-    width: 100vw;
-}
-
-
 /* About CSS 1280px */
-
-
-.about {
-    width: 90%;
-    margin: 200px auto 100px auto;
-    display: flex;
-    flex-direction: column;
-    max-width: 1152px;
-}
-
-.about__icons {
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-end;
-    margin: auto;
-    width: 95%;
-}
-
-.icon {
-    margin-bottom: 20px;
-    width: 70%;
-    max-width: 100px;
-}
-
-
-.about-navigator {
-    width: 100%;
-    margin: 20px auto 140px auto;
-    visibility: hidden;
-}
-
-.about__title {
-    text-align: left;
-    font-size: 55px;
-    margin: 0;
-    margin-bottom: 5px;
-}
-
-.about__title:last-of-type {
-    margin-bottom: 30px;
-}
-
-.about__info {
-    display: flex;
-    justify-content: space-between;
-    margin: auto;
-    margin-bottom: 100px;
-}
-
-.about__intro {
-    display: flex;
-    flex-direction: column;
-    margin-right: 15px;
-    flex-basis: 50%;
-    max-width: 50%;
-    /* border: 1px solid red; */
-    position: relative;
-}
-
-.about__image {
-    object-fit: contain;
-    object-position: top;
-    width: 100%;
-    margin-top: 10%;
-    /* border: 1px solid red; */
-}
-
-.about__me {
-    display: flex;
-    flex-direction: column;
-    width: 40%;
-    border-top: 1px solid rgba(51, 50, 61, 0.15);
-    border-bottom: 1px solid rgba(51, 50, 61, 0.15);
-    padding: 30px 0;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: auto;
-    font-size: 20px;
-    line-height: 2;
-}
-
-.animation-link {
-    text-decoration: none;
-    color: #7cd5df;
-    font-weight: bold;
-    transition: opacity 0.4s ease;
-}
-
-.youtube-link:hover {
-    opacity: 0.7;
-}
-
-.about__icons {
-    margin-top: 5px;
-    
-}
-
-.icon-link {
-    transition: opacity 0.4s ease, transform 0.4s ease;
-}
-
-.icon-link:hover {
-    opacity: 0.5;
-    transform: translate(-3px, -3px);
-}
-
-.places-icon {
-    width: 80px;
-}
-
-.about__lists {
-    display: flex;
-    justify-content: center;
-    border: 2px solid rgba(233, 240, 243, .7);
-    border-radius: 25px;
-    width: 60%;
-    margin: auto;
-    box-shadow: 5px 5px rgba(233, 240, 243, .7);
-    margin-top: 150px;
-    background-color: #7cd5df;
-}
-
-.list {
-    display: flex;
-    flex-direction: column;
-    border-right: 2px solid rgba(233, 240, 243, .7);
-    text-align: center;
-    width: 30%;
-}
-
-.list:last-of-type {
-    border-right: none;
-}
-
-
-.list-interior__title {
-    font-size: 26px;
-    color: white;
-    margin-bottom: 30px;
-    height: 20px;
-}
-
-.list-interior__list {
-    margin-top: 40px;
-    list-style: none;
-    padding: 0;
-    /* color: rgb(71, 71, 71); */
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-}
-
-.list-interior__list-item {
-    font-size: 20px;
-    margin: 30px auto;
-}
-
 
 
 /* Projects CSS 1280px */
 
 
-.projects {
-    padding-top: 100px;
-}
-
-.projects__text-group {
-    padding-top: 125px;
-    padding-bottom: 250px;
-    width: 100%;
-    margin: 0 auto 50px auto;
-    position: relative;
-    background-color: #7cd5df;
-}
-
-.projects__title {
-    text-align: center;
-    font-size: 50px;
-    margin-top: 0;
-    color: white;
-}
-
-.projects__subtitle {
-    text-align: center;
-    font-size: 29px;
-    line-height: 2;
-    margin-top: 0;
-    color: white;
-    margin: auto;
-    max-width: 800px;
-    width: 65%;
-}
-
-
-.projects__grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-row-gap: 48px;
-    grid-column-gap: 40px;
-    justify-content: center;
-    margin: auto;
-    padding: 70px 0;
-    width: 90%;
-    max-width: 1126px;
-    position: relative;
-    z-index: 2;
-    margin-top: -275px;
-}
-
-.projects__card {
-    display: flex;
-    justify-content: center;
-    width: 100%; 
-    max-width: 500px;
-    align-self: center;
-    position: relative;
-    transition: transform 0.4s ease;
-    height: auto;
-}
-
-.projects__image {
-    width: 100%;
-    object-fit: cover;
-    border-radius: 25px;
-    box-shadow: 0px 10px 1px rgba(233, 240, 243, .7);
-}
-
-.projects__overlay {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    text-align: center;
-    background-color:rgba(0, 0, 0, 0.9);
-    width: 100%;
-    height: 100%;
-    border-radius: 25px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.projects__overlay:hover {
-    opacity: 1;
-}
-
-.projects__card:hover {
-    transform: translate(-2px, -2px);
-}
-
-.projects__text-container {
-    flex-basis: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-}
-
-.projects__text {
-    width: 90%;
-    color: white;
-    font-size: 16px;
-    line-height: 2;
-    margin: 0;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0;
-}
-
-.projects__links {
-    display: flex;
-    justify-content: center;
-    /* border: 1px solid red; */
-    width: 40%;
-    margin-bottom: 30px;
-}
-
-.projects__link {
-    text-decoration: none;
-    background-color: transparent;
-    padding: 10px 0;
-    color: white;
-    font-weight: 400;
-    transition: 0.4s ease;
-    cursor: pointer;
-    width: 60px;
-}
-
-.projects__link_type_white {
-    display: block;
-}
-
-.projects__link_type_black {
-    display: none;
-}
-
-
-.projects__icon {
-    width: 50px;
-    transition: transform 0.4s ease;
-}
-
-.projects__icon:hover {
-    transform: translate(-3px, -3px);
-}
-
-.projects__icon:hover .projects__overlay {
-    opacity: 0.9;
-}
-
-
 /* Contact CSS 1280px */
-
-.contact {
-    text-align: center;
-    padding: 250px 0;
-    /* border-top: 1px solid rgba(0, 0, 0, 0.2); */
-    width: 90%;
-    margin: auto;
-}
-
-.contact__title {
-    font-size: 50px;
-    margin: 0;
-    margin-bottom: 25px;
-}
-
-.contact__subtitle {
-    font-size: 25px;
-    margin-bottom: 50px;
-}
-
-.contact__button {
-    border-radius: 0;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    height: 50px;
-    line-height: 50px;
-    width: 350px;
-    font-size: 20px;
-    background-color: transparent;
-    border: 3px solid #7cd5df;
-    border-radius: 65px;
-    padding: 10px 15px;
-    color: #7cd5df;
-    font-weight: 400;
-    transition: 0.4s ease;
-    text-decoration: none;
-}
-
-.contact__button:hover {
-    color: white;
-    /* background-color: #3ac0cf; */
-    background-color: #7cd5df;
-    cursor: pointer;
-}
 
 
 /* Footer CSS 1280px */
 
-.footer {
-    width: 100%;
-    height: 100px;
-    background-color: #232323;
-    padding: 10px 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.footer__text {
-    color: white;
-    text-align: center;
-    font-size: 20px;
-    margin: 0;
-    margin-bottom: 10px;
-}
-
-.footer__text:last-child {
-    margin-bottom: 0;
-}
-
-@keyframes fadeIn {
-    to {
-        opacity: 1;
-    }
-}
-
-@keyframes fadeOut {
-    to {
-        background-color: transparent;
-    }
-}
-
-
-
 
 /* About CSS 1024 px */ 
-
-@media (max-width: 1024px) {
-    .about__intro {
-        flex-basis: 48%;
-    }
-
-    .about__me {
-        font-size: 17px;
-    }
-
-    .list-interior__title {
-        font-size: 20px;
-        margin: 20px 5px;
-    }
-
-    .list-interior__list-item {
-        font-size: 15px;
-        margin: 15px auto;
-    }
-
-}
-
-
-
-
 
 
 /* Header CSS 768 px */
 
 
-
 /* Lead CSS 768px */ 
 
-@media (max-width: 768px) {
-
-    .lead__text {
-        width: 90%;
-    }
-
-}
 
 /* About CSS 768px */ 
 
-@media (max-width: 768px) {
-
-    .about {
-        margin-top: 100px;
-    }
-
-    .about-navigator {
-        margin: 0 auto 100px auto;
-    }
-
-    .about__title {
-        font-size: 40px;
-    }
-
-    .about__me {
-        font-size: 14px;
-    }
-
-}
-
 /* Projects CSS 768px */ 
 
-@media (max-width: 768px) {
-
-    .projects__grid {
-        width: 90%;
-        max-width: 691px;
-        padding: 0;
-    }
-}
 
 /* Contact CSS 768px */ 
 
-@media (max-width: 768px) {
-    
-}
 
 /* Footer CSS 768px */ 
-
-@media (max-width: 768px) {
-    
-}
-
-
-
-
 
 
 /* Header CSS 666px */ 
 
-@media (max-width: 666px) {
-    .logo {
-        margin-left: 25px;
-    }
-
-    .menu {
-        margin-right: 25px;
-    }
-}
 
 /* About CSS 666px */
 
-@media (max-width: 666px) {
 
-    .icon {
-        max-width: 60px;
-    }
-
-    .about__info {
-        flex-direction: column;
-    }
-
-    .about__intro {
-        margin-top: 10px;
-        margin-bottom: 40px;
-        max-width: 75%;
-    }
-
-    .about__image {
-        margin: 0;
-    }
-
-    .about__me {
-        width: 100%;
-    }
-
-    .about__paragraph {
-        width: 90%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .about__icons {
-        margin-top: 15px;
-        width: 50%;
-    }
-
-    .places-icon {
-        width: 45px;
-    }
-
-    .list-interior__title {
-        font-size: 17px;
-    }
-
-    .list-interior__list-item {
-        font-size: 13px;
-    }
-
-}
 
 /* Projects CSS 666px */ 
 
-@media (max-width: 666px) {
-    .projects__subtitle {
-        font-size: 23px;
-    }
-}
 
 /* Contact CSS 666px */ 
-
-@media (max-width: 666px) {
-    .contact__title {
-        font-size: 40px;
-        margin: 0;
-    }
-    
-    .contact__subtitle {
-        font-size: 20px;
-        margin-bottom: 25px;
-    }
-}
-
-
-
-
 
 
 /* About CSS 600px */
 
-@media (max-width: 600px) {
-
-    .about__title {
-        font-size: 35px;
-    }
-    
-    .list-interior__title {
-        font-size: 15px;
-    }
-
-    .list-interior__list-item {
-        font-size: 12px;
-    }
-}
-
-
-
-
-
-
-
-
 
 /* Header CSS 510 px */
 
-@media (max-width: 510px) {
 
-
-    .header {
-        margin: 0;
-        width: 100%;
-        z-index: 3;
-        display: flex;
-        position: fixed;
-        top: 0px;
-        height: auto;
-    }
-      
-    .menu {
-        display: block;
-        margin: 0;
-        padding: 0;
-        list-style: none;
-        overflow: hidden;
-        background-color: rgba(35, 35, 35, 0.5);
-    }
-
-    .header__list {
-       margin-right: 0;
-    }
-
-      
-    .header__link {
-        display: block;
-        margin: 20px 20px;
-        text-decoration: none;
-        text-align: center;
-        color: white;
-        transition: color 0.4s ease;
-    }
-      
-    .header__link:hover,
-    .header .header__menu-btn:hover {
-        color: rgba(255, 255, 255, 0.5);
-    }
-      
-    .logo_place_header {
-        display: block;
-        float: left;
-        font-size: 2em;
-        padding: 10px 20px;
-        text-decoration: none;
-    }
-      
-      /* menu */
-      
-    .header .menu {
-        clear: both;
-        max-height: 0;
-        transition: max-height .5s ease;
-        position: absolute;
-        top: 84px;
-        right: 0;
-    }
-      
-      /* menu icon */
-      
-    .header .header__menu-icon {
-        cursor: pointer;
-        display: inline-block;
-        float: right;
-        padding: 28px 20px;
-        position: relative;
-        user-select: none;
-        align-self: center;
-    }
-      
-    .header .header__menu-icon .navicon {
-        background: white;
-        display: block;
-        height: 3px;
-        position: relative;
-        transition: background .2s ease-out;
-        width: 25px;
-    }
-      
-    .header .header__menu-icon .navicon:before,
-    .header .header__menu-icon .navicon:after {
-        background: white;
-        content: '';
-        display: block;
-        height: 100%;
-        position: absolute;
-        transition: all .2s ease-out;
-        width: 100%;
-    }
-      
-    .header .header__menu-icon .navicon:before {
-        top: 7px;
-    }
-      
-    .header .header__menu-icon .navicon:after {
-        top: -7px;
-    }
-      
-      /* menu btn */
-      
-    .header .header__menu-btn {
-        display: none;
-    }
-      
-    .header .header__menu-btn:checked ~ .menu {
-        max-height: 240px;
-    }
-      
-    .header .header__menu-btn:checked ~ .header__menu-icon .navicon {
-        background: transparent;
-    }
-      
-    .header .header__menu-btn:checked ~ .header__menu-icon .navicon:before {
-        transform: rotate(-45deg);
-    }
-      
-    .header .header__menu-btn:checked ~ .header__menu-icon .navicon:after {
-        transform: rotate(45deg);
-    }
-      
-    .header .header__menu-btn:checked ~ .header__menu-icon:not(.steps) .navicon:before,
-    .header .header__menu-btn:checked ~ .header__menu-icon:not(.steps) .navicon:after {
-        top: 0;
-    }
-
-    .header .header__link:focus + .menu {
-        max-height: 0;
-    }
-
-    
-
-}
 
 /* Lead CSS 510px */ 
 
-@media (max-width: 510px) {
-    .lead {
-        margin-top: -84px;
-        padding-top: 100px;
-    }
 
-    .lead__anime {
-        max-width: 200px;
-    }
-
-    .lead__title {
-        font-size: 50px;
-    }
-
-    .lead__subtitle {
-        font-size: 20px;
-    }
-
-}
 
 /* About CSS 510px */ 
 
-@media (max-width: 510px) {
 
-    .icon {
-        max-width: 80px;
-    }
-    
-    .about__title {
-        font-size: 30px;
-    }
-
-    .about__me {
-        padding: 15px 0;
-    }
-
-
-    .places-icon {
-        width: 35px;
-    }
-
-    .about__lists {
-        width: 90%;
-    }
-
-}
 
 /* Projects CSS 510px */ 
 
-@media (max-width: 510px) {
 
-    .projects__subtitle {
-        font-size: 20px;
-        width: 80%;
-    }
-
-    .projects__grid {
-        grid-template-columns: 1fr;
-        width: 80%;
-        margin-top: -225px;
-    }
-
-    .projects__card {
-        max-height: 700px;
-        display: flex;
-        flex-direction: column;
-        background-color:rgba(233, 240, 243, 0.7);
-        padding: 20px 0;
-        border-radius: 25px;
-    }
-
-    .projects__image {
-        width: 90%;
-        margin: auto;
-    }
-
-    .projects__overlay {
-        position: relative;
-        opacity: 1;
-        background: transparent;
-    }
-
-    .projects__card:hover {
-        transform: translate(0,0);
-    }
-    
-
-    .projects__text {
-        color: black;
-        padding: 5px 0;
-        position: static;
-        width: 90%;
-        margin-top: 15px;
-        margin-bottom: 10px;
-    }
-
-    .projects__links {
-        margin-bottom: 0;
-        width: 50%;
-    }
-
-    .projects__icon {
-        transition: opacity 0.4s ease;
-        transition: transform 0.4s ease;
-    }
-
-    .projects__icon:hover {
-        opacity: 0.7;
-    }
-
-    .projects__link_type_white {
-        display: none;
-    }
-
-    .projects__link_type_black {
-        display: block;
-    }
-
-}
 
 
 
 /* Contact CSS 510px */ 
 
-@media (max-width: 510px) {
-    .contact {
-        width: 90%;
-        margin: auto;
-        padding: 200px 0;
-    }
 
-    .contact__title {
-        font-size: 30px;
-    }
-
-    .contact__button {
-         width: 250px;
-         height: 30px;
-         line-height: 30px;
-         font-size: 15px;
-    }
-
-}
 
 
 /* Footer CSS 510px */ 
 
-@media (max-width: 510px) {
 
-    .footer {
-        height: 75px; 
-    }
-
-    .footer__text {
-        font-size: 10px;
-        margin-bottom: 3px;
-    }
-}
 
 
 
@@ -1053,68 +95,14 @@
 
 /* About CSS 400px */ 
 
-@media (max-width: 400px) {
 
-    .icon {
-        max-width: 50px;
-    }
-
-    .about__title {
-        font-size: 25px;
-    }
-
-    .about__lists {
-        margin-top: 100px;
-    }
-
-    .list-interior__title {
-        font-size: 13px;
-    }
-
-    .list-interior__list {
-        margin: 0;
-    }
-
-    .list-interior__list-item {
-        font-size: 9px;
-    }
-}
 
 /* Projects CSS 400px */ 
 
-@media (max-width: 400px) {
-    .projects {
-        padding-top: 0;
-    }
 
-    .projects__title {
-        font-size: 40px;
-    }
-
-    .projects__subtitle {
-        font-size: 17px;
-        width: 95%;
-    }
-}
 
 /* Contact CSS 400px */ 
 
-@media (max-width: 400px) {
-
-    .contact {
-        padding: 150px 0;
-    }
-
-    .contact__title {
-        font-size: 28px;
-        margin: 0;
-    }
-    
-    .contact__subtitle {
-        font-size: 15px;
-        margin-bottom: 25px;
-    }
-}
 
 
 
@@ -1132,99 +120,16 @@
 
 /* Header CSS 320 px */
 
-@media (max-width: 320px) {
-    
-}
 
 /* Lead CSS 320 px */ 
 
-@media (max-width: 320px) {
-
-    .lead {
-        height: 75vh;
-    }
-
-    .lead__anime {
-        max-width: 175px;
-    }
-
-    .lead__title {
-        font-size: 35px;
-    }
-
-    .lead__subtitle {
-        font-size: 15px;
-    }
-
-}
 
 /* About CSS 320px */ 
 
-@media (max-width: 320px) {
-
-    .about__icons {
-        width: 100%;
-    }
-
-    .about__title {
-        font-size: 20px;
-    }
-
-    .about__info {
-        margin-bottom: 75px;
-    }
-
-    .about__me {
-        width: 90%;
-        font-size: 12px;
-    }
-
-    .about__lists {
-        width: 100%;
-        margin-top: 0;
-    }
-
-    .list-interior__title{
-        font-size: 14px;
-    }
-
-    .list-interior__list {
-        margin-top: 20px;
-    }
-
-    .list-interior__list-item {
-        margin: 10px auto;
-        font-size: 10px;
-    }
-    
-}
 
 /* Projects CSS 320px */ 
 
-@media (max-width: 320px) {
 
-    .projects__text-group {
-        padding: 70px 0 225px 0;
-    }
-
-    .projects__title {
-        width: 90%;
-        font-size: 35px;
-        margin: auto;
-        margin-bottom: 30px;
-    }
-
-    .projects__subtitle {
-        width: 90%;
-        font-size: 14px;
-
-    }
-
-    .projects__grid {
-        row-gap: 30px;
-    }
-
-}
     
 
 /* Contact CSS 320px */ 

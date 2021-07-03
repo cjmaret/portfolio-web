@@ -1,0 +1,21 @@
+.about__icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin: auto;
+    margin-top: 5px;
+    width: 95%;
+}
+
+@media (max-width: 666px) {
+    .about__icons {
+        margin-top: 15px;
+        width: 50%;
+    }
+}
+
+@media (max-width: 320px) {
+    .about__icons {
+        width: 100%;
+    }
+}

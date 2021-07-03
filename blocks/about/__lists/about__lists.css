@@ -1,0 +1,30 @@
+.about__lists {
+    display: flex;
+    justify-content: center;
+    border: 2px solid rgba(233, 240, 243, .7);
+    border-radius: 25px;
+    width: 60%;
+    margin: auto;
+    box-shadow: 5px 5px rgba(233, 240, 243, .7);
+    margin-top: 150px;
+    background-color: #7cd5df;
+}
+
+@media (max-width: 510px) {    
+    .about__lists {
+        width: 90%;
+    }
+}
+
+@media (max-width: 400px) {
+    .about__lists {
+        margin-top: 100px;
+    }
+}
+
+@media (max-width: 320px) {
+    .about__lists {
+        width: 100%;
+        margin-top: 0;
+    }
+}

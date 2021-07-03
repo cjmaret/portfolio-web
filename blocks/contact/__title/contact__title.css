@@ -1,0 +1,25 @@
+.contact__title {
+    font-size: 50px;
+    margin: 0;
+    margin-bottom: 25px;
+}
+
+@media (max-width: 666px) {
+    .contact__title {
+        font-size: 40px;
+        margin: 0;
+    }
+}
+
+@media (max-width: 510px) {
+    .contact__title {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 400px) {
+    .contact__title {
+        font-size: 28px;
+        margin: 0;
+    }
+}

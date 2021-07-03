@@ -1,0 +1,13 @@
+.header__list {
+    margin-right: 20px;
+}
+
+.header__list:last-child {
+    margin-right: 0;
+}
+
+@media (max-width: 510px) {      
+    .header__list {
+       margin-right: 0;
+    }
+}

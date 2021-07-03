@@ -1,0 +1,17 @@
+.lead__text {
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .lead__text {
+        width: 90%;
+    }
+}
+
+@media (max-width: 510px) {
+    .lead__title {
+        font-size: 50px;
+    }
+}

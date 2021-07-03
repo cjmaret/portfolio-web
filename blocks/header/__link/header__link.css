@@ -1,0 +1,28 @@
+.header__link {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition: color 0.4s ease;
+}
+
+.header__link:hover {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+@media (max-width: 510px) {      
+    .header__link {
+        display: block;
+        margin: 20px 20px;
+        text-decoration: none;
+        text-align: center;
+        color: white;
+        transition: color 0.4s ease;
+    }
+
+    .header__link:hover,
+    .header .header__menu-btn:hover {
+        color: rgba(255, 255, 255, 0.5);
+    }
+    
+}
+

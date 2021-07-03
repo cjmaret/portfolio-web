@@ -1,0 +1,17 @@
+@import url("./__text/footer__text.css");
+
+.footer {
+    width: 100%;
+    height: 100px;
+    background-color: #232323;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media (max-width: 510px) {
+    .footer {
+        height: 75px; 
+    }
+}

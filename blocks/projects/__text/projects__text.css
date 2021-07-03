@@ -1,0 +1,21 @@
+.projects__text {
+    width: 90%;
+    color: white;
+    font-size: 16px;
+    line-height: 2;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+}
+
+@media (max-width: 510px) {
+    .projects__text {
+        color: black;
+        padding: 5px 0;
+        position: static;
+        width: 90%;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+}

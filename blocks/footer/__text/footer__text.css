@@ -1,0 +1,18 @@
+.footer__text {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.footer__text:last-child {
+    margin-bottom: 0;
+}
+
+@media (max-width: 510px) {
+    .footer__text {
+        font-size: 10px;
+        margin-bottom: 3px;
+    }
+}

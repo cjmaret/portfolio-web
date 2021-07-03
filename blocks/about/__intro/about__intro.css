@@ -1,0 +1,23 @@
+.about__intro {
+    display: flex;
+    flex-direction: column;
+    margin-right: 15px;
+    flex-basis: 50%;
+    max-width: 50%;
+    /* border: 1px solid red; */
+    position: relative;
+}
+
+@media (max-width: 1024px) {
+    .about__intro {
+        flex-basis: 48%;
+    }
+}
+
+@media (max-width: 666px) {
+    .about__intro {
+        margin-top: 10px;
+        margin-bottom: 40px;
+        max-width: 75%;
+    }
+}

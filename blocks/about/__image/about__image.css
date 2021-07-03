@@ -1,0 +1,13 @@
+.about__image {
+    object-fit: contain;
+    object-position: top;
+    width: 100%;
+    margin-top: 10%;
+    /* border: 1px solid red; */
+}
+
+@media (max-width: 666px) {
+    .about__image {
+        margin: 0;
+    }
+}

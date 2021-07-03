@@ -1,0 +1,22 @@
+@import url("./__card/projects__card.css");
+@import url("./__grid/projects__grid.css");
+@import url("./__icon/projects__icon.css");
+@import url("./__image/projects__image.css");
+@import url("./__link/projects__link.css");
+@import url("./__links/projects__links.css");
+@import url("./__overlay/projects__overlay.css");
+@import url("./__subtitle/projects__subtitle.css");
+@import url("./__text-container/projects__text-container.css");
+@import url("./__text-group/projects__text-group.css");
+@import url("./__text/projects__text.css");
+@import url("./__title/projects__title.css");
+
+.projects {
+    padding-top: 100px;
+}
+
+@media (max-width: 400px) {
+    .projects {
+        padding-top: 0;
+    }
+}
